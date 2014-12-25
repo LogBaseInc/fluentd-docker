@@ -3,4 +3,4 @@ RUN curl -L http://toolbelt.treasuredata.com/sh/install-ubuntu-trusty-td-agent2.
 ADD run.sh /run.sh
 RUN chmod +x /run.sh
 
-CMD ["./run.sh"]
+CMD ["/run.sh"]
